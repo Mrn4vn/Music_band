@@ -1,0 +1,16 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;}
+.musician {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+  background-color: #fafafa;
+  border-radius: 50%;
+  line-height: 150px;
+  color: black;
+  cursor: pointer;
+  transition: transform .2s ease-in-out;}
+.musician:hover {
+  transform: scale(1.1);}
